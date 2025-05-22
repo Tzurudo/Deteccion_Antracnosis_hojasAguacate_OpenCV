@@ -5,7 +5,7 @@ import shutil
 
 # - - - - - - - - - - - - - - - - - - - -
 # Carpetas
-carpeta_entrada = "/home/zurdexdathtml/Documents/hojas"
+carpeta_entrada = "/home/Dowloads/hojas" # escoge tu carpeta 
 carpeta_sanas = os.path.join(carpeta_entrada, "hSanas")
 carpeta_cuarentena = os.path.join(carpeta_entrada, "hCuarentena")
 carpeta_enfermas = os.path.join(carpeta_entrada, "hEnfermas")

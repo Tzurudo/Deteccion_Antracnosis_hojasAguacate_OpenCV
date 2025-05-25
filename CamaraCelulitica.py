@@ -1,10 +1,12 @@
+#By Tzurudo -> https://github.com/Tzurudo/Tzurudo
+#Recuerda tener todas las librerias instaladas 
 import cv2
 import numpy as np
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 import threading
-
+#------------------------------------
 class AplicacionAntracnosis:
     def __init__(self, ventana_principal):
         self.ventana_principal = ventana_principal

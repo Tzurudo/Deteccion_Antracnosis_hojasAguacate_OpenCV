@@ -1,2 +1,34 @@
-# miniature-octo-guide
-This project implements a simple algorithm with two modes. The first is a classified image of the avocado tree leaves and the second is the real-time connection to the ip webcam application in the play  store.
+# 🌿 Análisis de Antracnosis en Tiempo Real
+
+Aplicación de escritorio con interfaz gráfica para el monitoreo y detección de antracnosis en frutas mediante procesamiento de imágenes en vivo con OpenCV y Tkinter.
+
+---
+
+## 🧪 ¿Qué es Antracnosis?
+
+La antracnosis es una enfermedad causada por hongos que afecta diversas frutas, produciendo manchas marrones o negras. Este software identifica posibles zonas afectadas analizando colores específicos en el espacio HSV.
+
+---
+
+## 🖥️ Características
+
+- 🎥 Captura de video desde cámara IP o archivo local.
+- 🧠 Detección de zonas afectadas por antracnosis usando filtros HSV.
+- 📈 Cálculo del porcentaje de área afectada.
+- 📊 Diagnóstico automático (Sano, Posible Antracnosis, Alta Probabilidad).
+- 🖼️ Visualización en vivo de imagen original y procesada.
+- 🪟 Interfaz gráfica amigable con controles intuitivos.
+
+---
+
+## ⚙️ Requisitos
+
+- Python 3.7+
+- OpenCV
+- Pillow (PIL)
+- NumPy
+
+Puedes instalar las dependencias con:
+
+```bash
+pip install opencv-python pillow numpy

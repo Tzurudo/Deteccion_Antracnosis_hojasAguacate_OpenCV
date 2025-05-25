@@ -35,3 +35,7 @@ Puedes instalar las dependencias con:
 ```bash
 pip install opencv-python pillow numpy
 ```
+## Licencia
+---
+
+Desarrollado por [Tzurudo](https://github.com/Tzurudo)

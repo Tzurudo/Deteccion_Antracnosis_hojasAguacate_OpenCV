@@ -4,12 +4,11 @@ Clona o descarga el proyecto.
 # Para evitar posibles ruidos y tener un diagnóstico más acertado
 Ejecuta el script:
 
-bash
-Copiar
-Editar
+
 python app_antracnosis.py
 Introduce la URL de la cámara IP o ruta de video (por ejemplo, 0 para webcam local),pero puede
-ser de la Aplicación de IP web Cam disponible en android.
+ser de la Aplicación de IP web Cam disponible en android desde la PLAY STORE, solo 
+tienes que iniciar servidor.
 
 Haz clic en "Iniciar Análisis".
 

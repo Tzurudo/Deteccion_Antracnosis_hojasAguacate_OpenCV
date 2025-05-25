@@ -1,6 +1,7 @@
 🚀 Ejecución
 Clona o descarga el proyecto.
-
+# Recuerda que esta es una solución simple -> Por lo que debes enfocar directamente una hoja 
+# Para evitar posibles ruidos y tener un diagnóstico más acertado
 Ejecuta el script:
 
 bash

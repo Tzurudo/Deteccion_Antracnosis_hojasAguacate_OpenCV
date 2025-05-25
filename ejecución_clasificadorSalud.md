@@ -48,9 +48,9 @@ Editar
 
 Instalación:
 
-'''bash
+```bash
 pip install opencv-python numpy
-
+````
 
 
 🚀 Uso
@@ -58,16 +58,11 @@ Coloca tus imágenes en la carpeta hojas (puede contener .jpg, .png, .jpeg, .web
 
 Edita la ruta en el script:
 
-python
-Copiar
-Editar
 carpeta_entrada = "/home/Dowloads/hojas"
 Ejecuta el script:
-
-bash
-Copiar
-Editar
+````
 python clasificador_hojas.py
+````
 Las imágenes se moverán automáticamente a su categoría correspondiente.
 
 🎯 Lógica de Clasificación
@@ -85,31 +80,25 @@ ENFERMA	> 0.4%
 ✏️ Personalización
 Puedes ajustar los límites HSV según tus condiciones de iluminación y color:
 
-python
-Copiar
-Editar
+````
 limite_bajo = np.array([5, 50, 10])
 limite_alto = np.array([25, 240, 100])
 Y modificar los umbrales de clasificación:
+````
 
-python
-Copiar
-Editar
 umbral_cuarentena = 0.2
 umbral_enferma = 0.4
 📋 Resultado de consola
 El script imprime un resumen como este:
 
-scss
-Copiar
-Editar
+
 hoja01.jpg → SANA (0.03%)
 hoja02.jpg → ENFERMA (1.20%)
 hoja03.jpg → CUARENTENA (0.32%)
-📌 Notas
-El script mueve los archivos. Si deseas conservarlos, reemplaza shutil.move(...) por shutil.copy(...).
 
-Asegúrate de que la carpeta de entrada exista y esté bien escrita (¡cuidado con /home/Dowloads!).
+📌 Notas
+El script mueve los archivos asegurate de dar una ruta correcta. 
+Asegúrate de que la carpeta de entrada exista y esté bien escrita (¡cuidado con /home/Dowloads/!).
 
 👨‍🔬 Autor
 Desarrollado por [Tzurudo]

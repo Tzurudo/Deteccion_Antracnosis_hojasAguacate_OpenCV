@@ -12,6 +12,8 @@ La antracnosis es una enfermedad causada por hongos que afecta diversas frutas, 
 
 ## 🖥️ Características
 
+  # Esta es una solución sencilla y esta pensada para comprender las bases de detección de enfermedades en cultivos 
+  
 - 🎥 Captura de video desde cámara IP o archivo local.
 - 🧠 Detección de zonas afectadas por antracnosis usando filtros HSV.
 - 📈 Cálculo del porcentaje de área afectada.

@@ -1,16 +1,16 @@
-# 🌿 Detección de Antracnosis en Hojas de Árbol de Aguacate con OpenCV
+#  Detección de Antracnosis en Hojas de Árbol de Aguacate con OpenCV
 
 Aplicación de escritorio con interfaz gráfica para el monitoreo y detección de antracnosis en frutas mediante procesamiento de imágenes en vivo con OpenCV y Tkinter.
 
 ---
 
-## 🧪 ¿Qué es Antracnosis?
+##¿Qué es Antracnosis?
 
 La antracnosis es una enfermedad causada por hongos que afecta diversas frutas, produciendo manchas marrones o negras. Este software identifica posibles zonas afectadas analizando colores específicos en la superficie de la hoja.
 
 ---
 
-## 🖥️ Características
+##Características
 
   # Esta es una solución sencilla y esta pensada para comprender las bases de detección de enfermedades en cultivos 
    
@@ -23,7 +23,7 @@ La antracnosis es una enfermedad causada por hongos que afecta diversas frutas, 
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Python 3.7+
 - OpenCV
